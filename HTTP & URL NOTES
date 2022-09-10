@@ -1,0 +1,79 @@
+___
+HTTP • Hypertext Transfer Protocol
+-- use for viewing web pages e.g. http//www.google.com
+-- the "http" will automatic added.
+
+-- in standard HTTP, all information is sent clear text
+___
+MY COMPUTER --> PUBLIC INTERNET --> SERVER WEB
+
+• Vulnerable to Hacker
+• Offtyping Sensitive info. name. contacts. password are not encrypted.
+___
+HTTPS • Secure Hypertext Transfer Protocol
+-- encrypts the data retrieved by HTTP
+-- uses encryption algorithms to scramble the data that being transferred.
+e.g. 🔒https://www.github.com
+___
+SSL • Secure Sockets Layer
+
+-- Protocol that used to ensure security on the internet.
+-- Uses public key encryption to secure data
+
+Computer ask to web server of SSL certificate to grow the legitimate of secure website
+___
+TLS • Transport Layer Security
+
+-- Successor to SSL
+-- latest industry standard if cryptographic protocol
+___
+DOMAIN NAME EXTENSION
+___
+.com - used by United States Defense
+
+.uk -| specific
+.ph -| end point extension
+.ru -| in different country
+
+.org - organization "Non-profit charity"
+.org .ph - organization country based
+.net - "network" multiple site attach into one ; use by tech company
+___
+URI, URL, URN
+___
+• URI - Uniform Resource Identifier
+-- string of character used to identify a resource on the internet. either by location, name etc...
+
+Name: John Ryan
+Address: Delaware Street
+___
+• URL - Uniform Resource Locator
+
+-- it is a string of characters refers to address
+-- most used way to locate resources on the web
+___
+• URN - Uniform Resource Name
+
+-- name of the resource
+
+URI
+• Name - URN
+• Location - URL
+
+URL • consist of the required components
+-- The Protocol (used to connect)
+-- The Domain (I.P. address)
+-- The Path
+-- The Port
+
+https: //github .com:80/files/repo
+
+• https: - protocol
+• github .com - Domain | e.g. 111.222.333.444
+• : 80 - Port
+•  /files/repo - Path
+
+Query String - ?files&repo "key volume pairs"
+
+Fragment • # request ports of a page. e.g. # files repo
+___
